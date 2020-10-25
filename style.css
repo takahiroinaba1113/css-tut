@@ -1,0 +1,215 @@
+h1{
+    color: green;
+}
+
+body{
+    background-color: #f4f4f4;
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    /* same as above */
+    /* font: normal 16px Arial, Helvetica, sans-serif; */
+
+    line-height: 1.6em;
+    margin: 0;
+}
+
+/* link itself */
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/* after the action  */
+a:hover{
+    color: red;
+}
+
+/* when the link is clicked  */
+a:active{
+    color: green;
+}
+
+a:visited{
+    color: blue;
+}
+
+.button{
+    background-color: #333333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+.button:hover{
+    background-color: red;
+    color: #fff;
+}
+
+.clr{
+    clear: both;
+}
+
+.container{
+    /* by setting %, it will automatically adjust to the browser size. */
+    width: 80%;
+    /* same margin in all sides */
+    margin: auto;
+}
+
+/* for class you need to add . in the beginning */
+.box-1{
+    background-color: #333333;
+    color: #fff;
+
+    /* border-right: 5px chartreuse solid;
+    border-left: 5px chartreuse dotted;
+    border-top: 10px cyan dashed;
+    border-bottom: 10px cyan solid; */
+
+    /* if all style is the same, */
+    border: 5px crimson solid;
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    /* same as above
+    padding: 20px; */
+
+    /* margin-top: 20px; */
+    margin: 20px 0;
+}
+
+/* any box-1 class within the h1 */
+.box-1 h1 {
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.box-2{
+    border: 3px dotted #cccccc;
+    padding: 20px;
+    margin:20px 0;
+}
+
+.categories{
+    border: 1px #cccccc solid;
+    padding: 10px;
+    /* radius for rounded corner */
+    border-radius: 15px;
+}
+
+.categories h2 {
+    text-align: center;
+}
+
+.categories ul{
+    padding: 20px;
+    list-style: square;
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: dotted 1px #333333;
+    /* you can put image as well  */
+    /* list-style-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Checked.svg/1024px-Checked.svg.png'); */
+}
+
+.my-form{
+    padding:20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block{
+    float: left;
+    width: 70%;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #333333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative;
+    /* url('path/to/the/image') or url('image/url/on/the/internet') */
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png');
+    background-position: 100px 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.p-box h1{
+    /* position in the page */
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+.fix-me{
+    /* fixed means that the element is fixed in the position  */
+    position: fixed;
+    top: 400px;
+}
+
+/* styling for specific items */
+.my-list li:first-child{
+    background: red;
+}
+
+.my-list li:last-child{
+    background: blue;
+}
+
+.my-list li:nth-child(5){
+    background:yellow;
+}
+
+.my-list li:nth-child(even){
+    background:gainsboro;
+}

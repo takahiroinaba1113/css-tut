@@ -1,0 +1,61 @@
+What is CSS?
+- cascading stylesheets
+- not a programming language
+- stylesheet/ styling language
+- used for website layout and design
+- can be extended with Sass/Less
+
+3 methods for adding CSS
+- inline CSS
+-> directly in the html element - no no
+- internal CSS
+-> using <style> tags within a single document
+- external CSS
+-> liking an external .css file
+-> most recommended option 
+
+CSS selectors
+selector {
+    property: value;
+}
+
+Colors in CSS
+- color names
+- HTML 5 color names
+- Hexadecimal nums
+- RGB (rbg{#, #, #})
+
+Web safe fonts
+
+Class and ID in CSS
+- id: unique value
+- class: reused 
+
+Box Model
+- Margin: spaces outside 
+- Border:
+- Padding: spaces inside
+- Content:
+
+e.g.
+p{
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-right:10px;
+    margin-left10px;
+}
+
+= to
+
+p{
+    margin: 5px 10px 5px 10ox;
+    top->right->bottom->left
+}
+
+Positioning in CSS
+- static
+- relative
+- absolute
+- fixed
+- initial
+- inherit

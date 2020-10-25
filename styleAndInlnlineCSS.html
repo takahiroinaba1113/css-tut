@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="This is a practice for CSS">
+    </head>
+
+    <body>
+
+        <!-- import styles -->
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+        <!-- 2. CSS selectors -->
+        <!-- specify the tags and styles to apply -->
+        <!-- 3. CSS class, 4 CSS class to multiple elements-->
+        <!-- add . and a class name -->
+        <!-- style tags usually within head tags -->
+        <style>
+            /* css selectors */
+            h2 {
+                background-color: darkkhaki;
+                font-family: Lobster, monospace;
+                }
+
+            p {
+                color: crimson;
+                /* if you specify more than one, applied from the left */
+                font-family: Helvetica, monospace;
+                }
+
+            /* css class */
+            /* define a class and styles, and apply it to tags with the class attribute */
+            .color-text {
+                color: darkmagenta;
+                font-size: 30px;
+            }
+        </style>
+
+        <!-- 1. Inline Styles  -->
+        <h2 style="color: crimson;">CatPhotoApp</h2>
+        <main>
+            <p>Click here to view more <a href="#">cat photos</a>.</p>
+        </main>
+
+        <div>
+            <p>Things cats love:</p>
+            <ul class="color-text">
+                <li>cat nip</li>
+                <li>laser pointers</li>
+                <li>lasagna</li>
+            </ul>
+
+            <p>Top 3 things cats hate:</p>
+            <ol class="color-text">
+                <li>flea treatment</li>
+                <li>thunder</li>
+                <li>other cats</li>
+            </ol>
+        </div>
+
+    </body>
+
+</html>
